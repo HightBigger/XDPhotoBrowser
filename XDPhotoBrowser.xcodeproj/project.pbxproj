@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD37056C2122B9540064D764 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD37056B2122B9540064D764 /* AppDelegate.m */; };
+		AD37056F2122B9540064D764 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD37056E2122B9540064D764 /* ViewController.m */; };
+		AD3705722122B9540064D764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3705702122B9540064D764 /* Main.storyboard */; };
+		AD3705742122B9550064D764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3705732122B9550064D764 /* Assets.xcassets */; };
+		AD3705772122B9550064D764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3705752122B9550064D764 /* LaunchScreen.storyboard */; };
+		AD37057A2122B9550064D764 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3705792122B9550064D764 /* main.m */; };
+		ADC1E3022122C0CA006FFDAA /* OTScreenshotHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2F42122C0CA006FFDAA /* OTScreenshotHelper.m */; };
+		ADC1E3032122C0CA006FFDAA /* UIView+XDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2F52122C0CA006FFDAA /* UIView+XDExtension.m */; };
+		ADC1E3042122C0CA006FFDAA /* XDPhotoBrowserImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2F62122C0CA006FFDAA /* XDPhotoBrowserImageContainer.m */; };
+		ADC1E3052122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2F72122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.m */; };
+		ADC1E3062122C0CA006FFDAA /* XDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2F92122C0CA006FFDAA /* XDPhotoBrowser.m */; };
+		ADC1E3072122C0CA006FFDAA /* XDPhotoBrowserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E2FF2122C0CA006FFDAA /* XDPhotoBrowserModel.m */; };
+		ADC1E3082122C0CA006FFDAA /* XDPhotoBrowserLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E3002122C0CA006FFDAA /* XDPhotoBrowserLoading.m */; };
+		ADC1E30E2122C276006FFDAA /* XDPhotoBrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1E30D2122C276006FFDAA /* XDPhotoBrowserManager.m */; };
+		ADC1E3112122CB14006FFDAA /* xd_photobrowser_placehoder.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC1E3102122CB14006FFDAA /* xd_photobrowser_placehoder.png */; };
+		ADC1E3142122CB88006FFDAA /* xd_images_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC1E3122122CB88006FFDAA /* xd_images_more@2x.png */; };
+		ADC1E3152122CB88006FFDAA /* xd_images_more@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC1E3132122CB88006FFDAA /* xd_images_more@3x.png */; };
+		EDCD4673FC7CC26A05488B6E /* Pods_XDPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE72686CBE04EE0735B4B4B /* Pods_XDPhotoBrowser.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DE72686CBE04EE0735B4B4B /* Pods_XDPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A53F8A17B5FDD7FD73CD05 /* Pods-XDPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XDPhotoBrowser/Pods-XDPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		AD3705672122B9540064D764 /* XDPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD37056A2122B9540064D764 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD37056B2122B9540064D764 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD37056D2122B9540064D764 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD37056E2122B9540064D764 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD3705712122B9540064D764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3705732122B9550064D764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3705762122B9550064D764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3705782122B9550064D764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3705792122B9550064D764 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC1E2F32122C0CA006FFDAA /* OTScreenshotHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTScreenshotHelper.h; sourceTree = "<group>"; };
+		ADC1E2F42122C0CA006FFDAA /* OTScreenshotHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTScreenshotHelper.m; sourceTree = "<group>"; };
+		ADC1E2F52122C0CA006FFDAA /* UIView+XDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDExtension.m"; sourceTree = "<group>"; };
+		ADC1E2F62122C0CA006FFDAA /* XDPhotoBrowserImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowserImageContainer.m; sourceTree = "<group>"; };
+		ADC1E2F72122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowserCollectionCell.m; sourceTree = "<group>"; };
+		ADC1E2F82122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserCollectionCell.h; sourceTree = "<group>"; };
+		ADC1E2F92122C0CA006FFDAA /* XDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowser.m; sourceTree = "<group>"; };
+		ADC1E2FA2122C0CA006FFDAA /* XDPhotoBrowserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserModel.h; sourceTree = "<group>"; };
+		ADC1E2FB2122C0CA006FFDAA /* UIView+XDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDExtension.h"; sourceTree = "<group>"; };
+		ADC1E2FC2122C0CA006FFDAA /* XDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowser.h; sourceTree = "<group>"; };
+		ADC1E2FD2122C0CA006FFDAA /* XDPhotoBrowserDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserDefinition.h; sourceTree = "<group>"; };
+		ADC1E2FE2122C0CA006FFDAA /* XDPhotoBrowserImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserImageContainer.h; sourceTree = "<group>"; };
+		ADC1E2FF2122C0CA006FFDAA /* XDPhotoBrowserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowserModel.m; sourceTree = "<group>"; };
+		ADC1E3002122C0CA006FFDAA /* XDPhotoBrowserLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowserLoading.m; sourceTree = "<group>"; };
+		ADC1E3012122C0CA006FFDAA /* XDPhotoBrowserLoading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserLoading.h; sourceTree = "<group>"; };
+		ADC1E30C2122C276006FFDAA /* XDPhotoBrowserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowserManager.h; sourceTree = "<group>"; };
+		ADC1E30D2122C276006FFDAA /* XDPhotoBrowserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowserManager.m; sourceTree = "<group>"; };
+		ADC1E3102122CB14006FFDAA /* xd_photobrowser_placehoder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xd_photobrowser_placehoder.png; sourceTree = "<group>"; };
+		ADC1E3122122CB88006FFDAA /* xd_images_more@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xd_images_more@2x.png"; sourceTree = "<group>"; };
+		ADC1E3132122CB88006FFDAA /* xd_images_more@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xd_images_more@3x.png"; sourceTree = "<group>"; };
+		B0D74CB1CD53B325D53B19A6 /* Pods-XDPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XDPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XDPhotoBrowser/Pods-XDPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3705642122B9540064D764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCD4673FC7CC26A05488B6E /* Pods_XDPhotoBrowser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C117FE6840E6E983C4F0F0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DE72686CBE04EE0735B4B4B /* Pods_XDPhotoBrowser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD37055E2122B9540064D764 = {
+			isa = PBXGroup;
+			children = (
+				AD3705692122B9540064D764 /* XDPhotoBrowser */,
+				AD3705682122B9540064D764 /* Products */,
+				E2D777F0079741EC76A2FF44 /* Pods */,
+				2C117FE6840E6E983C4F0F0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3705682122B9540064D764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3705672122B9540064D764 /* XDPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3705692122B9540064D764 /* XDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AD37056A2122B9540064D764 /* AppDelegate.h */,
+				AD37056B2122B9540064D764 /* AppDelegate.m */,
+				AD37056D2122B9540064D764 /* ViewController.h */,
+				AD37056E2122B9540064D764 /* ViewController.m */,
+				ADC1E30C2122C276006FFDAA /* XDPhotoBrowserManager.h */,
+				ADC1E30D2122C276006FFDAA /* XDPhotoBrowserManager.m */,
+				AD3705912122BA270064D764 /* XDPhotoBrowser */,
+				AD3705702122B9540064D764 /* Main.storyboard */,
+				AD3705732122B9550064D764 /* Assets.xcassets */,
+				AD3705752122B9550064D764 /* LaunchScreen.storyboard */,
+				AD3705782122B9550064D764 /* Info.plist */,
+				AD3705792122B9550064D764 /* main.m */,
+			);
+			path = XDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AD3705912122BA270064D764 /* XDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1E2FD2122C0CA006FFDAA /* XDPhotoBrowserDefinition.h */,
+				ADC1E2FC2122C0CA006FFDAA /* XDPhotoBrowser.h */,
+				ADC1E2F92122C0CA006FFDAA /* XDPhotoBrowser.m */,
+				ADC1E2F82122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.h */,
+				ADC1E2F72122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.m */,
+				ADC1E2FE2122C0CA006FFDAA /* XDPhotoBrowserImageContainer.h */,
+				ADC1E2F62122C0CA006FFDAA /* XDPhotoBrowserImageContainer.m */,
+				ADC1E3012122C0CA006FFDAA /* XDPhotoBrowserLoading.h */,
+				ADC1E3002122C0CA006FFDAA /* XDPhotoBrowserLoading.m */,
+				ADC1E2FA2122C0CA006FFDAA /* XDPhotoBrowserModel.h */,
+				ADC1E2FF2122C0CA006FFDAA /* XDPhotoBrowserModel.m */,
+				ADC1E2FB2122C0CA006FFDAA /* UIView+XDExtension.h */,
+				ADC1E2F52122C0CA006FFDAA /* UIView+XDExtension.m */,
+				ADC1E2F22122C0CA006FFDAA /* OTScreenshotHelper */,
+				ADC1E30F2122CB14006FFDAA /* Resources */,
+			);
+			path = XDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		ADC1E2F22122C0CA006FFDAA /* OTScreenshotHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1E2F32122C0CA006FFDAA /* OTScreenshotHelper.h */,
+				ADC1E2F42122C0CA006FFDAA /* OTScreenshotHelper.m */,
+			);
+			path = OTScreenshotHelper;
+			sourceTree = "<group>";
+		};
+		ADC1E30F2122CB14006FFDAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1E3102122CB14006FFDAA /* xd_photobrowser_placehoder.png */,
+				ADC1E3122122CB88006FFDAA /* xd_images_more@2x.png */,
+				ADC1E3132122CB88006FFDAA /* xd_images_more@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E2D777F0079741EC76A2FF44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0D74CB1CD53B325D53B19A6 /* Pods-XDPhotoBrowser.debug.xcconfig */,
+				45A53F8A17B5FDD7FD73CD05 /* Pods-XDPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3705662122B9540064D764 /* XDPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD37057D2122B9550064D764 /* Build configuration list for PBXNativeTarget "XDPhotoBrowser" */;
+			buildPhases = (
+				C4A54BEA03E31D746DA6BD9C /* [CP] Check Pods Manifest.lock */,
+				AD3705632122B9540064D764 /* Sources */,
+				AD3705642122B9540064D764 /* Frameworks */,
+				AD3705652122B9540064D764 /* Resources */,
+				A6431E95A705EAE4E20F3462 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDPhotoBrowser;
+			productName = XDPhotoBrowser;
+			productReference = AD3705672122B9540064D764 /* XDPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD37055F2122B9540064D764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = nationsky;
+				TargetAttributes = {
+					AD3705662122B9540064D764 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AD3705622122B9540064D764 /* Build configuration list for PBXProject "XDPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD37055E2122B9540064D764;
+			productRefGroup = AD3705682122B9540064D764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3705662122B9540064D764 /* XDPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3705652122B9540064D764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1E3112122CB14006FFDAA /* xd_photobrowser_placehoder.png in Resources */,
+				AD3705772122B9550064D764 /* LaunchScreen.storyboard in Resources */,
+				AD3705742122B9550064D764 /* Assets.xcassets in Resources */,
+				ADC1E3142122CB88006FFDAA /* xd_images_more@2x.png in Resources */,
+				ADC1E3152122CB88006FFDAA /* xd_images_more@3x.png in Resources */,
+				AD3705722122B9540064D764 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6431E95A705EAE4E20F3462 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XDPhotoBrowser/Pods-XDPhotoBrowser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XDPhotoBrowser/Pods-XDPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4A54BEA03E31D746DA6BD9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XDPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3705632122B9540064D764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1E3032122C0CA006FFDAA /* UIView+XDExtension.m in Sources */,
+				ADC1E3052122C0CA006FFDAA /* XDPhotoBrowserCollectionCell.m in Sources */,
+				ADC1E3022122C0CA006FFDAA /* OTScreenshotHelper.m in Sources */,
+				AD37056F2122B9540064D764 /* ViewController.m in Sources */,
+				ADC1E3042122C0CA006FFDAA /* XDPhotoBrowserImageContainer.m in Sources */,
+				ADC1E3082122C0CA006FFDAA /* XDPhotoBrowserLoading.m in Sources */,
+				ADC1E3062122C0CA006FFDAA /* XDPhotoBrowser.m in Sources */,
+				ADC1E3072122C0CA006FFDAA /* XDPhotoBrowserModel.m in Sources */,
+				AD37057A2122B9550064D764 /* main.m in Sources */,
+				ADC1E30E2122C276006FFDAA /* XDPhotoBrowserManager.m in Sources */,
+				AD37056C2122B9540064D764 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD3705702122B9540064D764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3705712122B9540064D764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD3705752122B9550064D764 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3705762122B9550064D764 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD37057B2122B9550064D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD37057C2122B9550064D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD37057E2122B9550064D764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D74CB1CD53B325D53B19A6 /* Pods-XDPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nationsky.XDPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD37057F2122B9550064D764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A53F8A17B5FDD7FD73CD05 /* Pods-XDPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = XDPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nationsky.XDPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3705622122B9540064D764 /* Build configuration list for PBXProject "XDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD37057B2122B9550064D764 /* Debug */,
+				AD37057C2122B9550064D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD37057D2122B9550064D764 /* Build configuration list for PBXNativeTarget "XDPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD37057E2122B9550064D764 /* Debug */,
+				AD37057F2122B9550064D764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD37055F2122B9540064D764 /* Project object */;
+}

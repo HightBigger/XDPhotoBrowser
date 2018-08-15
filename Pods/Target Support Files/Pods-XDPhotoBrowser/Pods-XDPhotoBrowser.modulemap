@@ -1,0 +1,6 @@
+framework module Pods_XDPhotoBrowser {
+  umbrella header "Pods-XDPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

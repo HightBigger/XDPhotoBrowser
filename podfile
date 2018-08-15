@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'XDPhotoBrowser' do
+    pod 'SDWebImage', '~> 4.4.2'
+end
