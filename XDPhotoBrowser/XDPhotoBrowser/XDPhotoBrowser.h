@@ -12,7 +12,7 @@
  控件的基本结构
  |-------------------------XDPhotoBrowserImageContainer(clear)------------------------|
  |-------------------------XDPhotoBrowserCollectionCell(clear)------------------------|
- |--------------------------------UICollectionView(black)-------------------------------|
+ |--------------------------------UICollectionView(black)-----------------------------|
  |--------------------------------XDPhotoBrowser(black)-------------------------------|
  */
 
@@ -98,7 +98,6 @@
 
  @param title 标题
  @param btnArray 按钮数组
- @param redButtons 红色按钮
  @param block 回调
  */
 - (void)showActionSheet:(NSString *)title
