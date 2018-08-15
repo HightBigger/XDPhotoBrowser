@@ -53,7 +53,7 @@
 - (UIImage *)photoBrowser:(XDPhotoBrowser *)browser
  highQualityImageForIndex:(NSInteger)index;
 /**
- 图片浏览器将要加载到某一需要下载的图片的时候调用，图片在下载中，下载成功，下载失败，都不会再走该回调
+ 图片浏览器将要加载到某一需要下载的图片的时候调用，存在高清图，或图片正在下载中，则不会再走该回调
 
  @param browser 当前的图片浏览器
  @param index 当前图片的索引
