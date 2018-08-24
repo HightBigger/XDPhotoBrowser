@@ -62,6 +62,12 @@
                                    bolck(buttonIndex,currentIndex,currentImage);
                                }];
     }];
+    
+    __weak typeof(self) weakSelf = self;
+    [_photoBrowser setPhotoBrowserDidDisMiss:^{
+        weakSelf.photoBrowser = nil;
+    }];
+    
     [_photoBrowser showFromViewController:viewController withShowType:PhotoBrowserShowTypeScale];
 }
 

@@ -164,7 +164,10 @@
     __weak typeof(self) weakSelf = self;
     [cell.container dismissAnimationWithCompletionBlock:^{
         BOOL animated = weakSelf.showType == PhotoBrowserShowTypeNormal;
-        [weakSelf dismissViewControllerAnimated:animated completion:nil];
+        [weakSelf dismissViewControllerAnimated:animated completion:^{
+            if (weakSelf.photoBrowserDidDisMiss)
+                weakSelf.photoBrowserDidDisMiss();
+        }];
     }];
 }
 

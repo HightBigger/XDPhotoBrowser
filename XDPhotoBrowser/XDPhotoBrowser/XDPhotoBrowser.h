@@ -80,6 +80,8 @@
 @property (nonatomic,assign) NSInteger currentIndex;
 /** 点击右上角更多按钮回调 */
 @property (nonatomic,copy) void (^clickMoreImageBtn)(void);
+/** 图片浏览器已经消失 */
+@property (nonatomic,copy) void (^photoBrowserDidDisMiss)(void);
 /** 长按手势，currentIndex为当前展示图片索引，若返回currentImage为nil，则当前展示图片为下载成功 */
 @property (nonatomic,copy)  void (^longPressGesture)(NSInteger currentIndex,UIImage *currentImage);
 
