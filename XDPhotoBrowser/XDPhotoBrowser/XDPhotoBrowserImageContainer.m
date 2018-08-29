@@ -156,8 +156,6 @@
     
     self.imageViewIsMoving = YES;
     [UIView animateWithDuration:0.2 animations:^{
-        wself.zoomScale = ScrollViewMinZoomScale;
-        wself.contentOffset = CGPointZero;
         wself.imageView.frame = currentFrame;
         wself.superview.superview.superview.backgroundColor = [UIColor blackColor];
     }completion:^(BOOL finished) {
