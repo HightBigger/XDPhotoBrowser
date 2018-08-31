@@ -12,6 +12,7 @@
 #import "UIView+XDExtension.h"
 #import "OTScreenshotHelper.h"
 #import <SDWebImage/NSData+ImageContentType.h>
+#import <Masonry/Masonry.h>
 
 @interface XDPhotoBrowser ()<UICollectionViewDelegate,UICollectionViewDataSource>
 
@@ -60,8 +61,15 @@
     [self.view addSubview:self.collectionView];
     
     if (self.totalCount > 1 && !self.hidePageControl)
+    {
         [self.view addSubview:self.pageControl];
-    
+        [self.pageControl mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.bottom.mas_equalTo(-30-iPhone_X_Present);
+            make.height.mas_equalTo(10);
+            make.left.right.mas_equalTo(0);
+        }];
+    }
+
     if (self.showMore)
         [self.view addSubview:self.moreImagesBtn];    
     
@@ -338,7 +346,7 @@
 
 - (UIPageControl *)pageControl {
     if (!_pageControl) {
-        _pageControl = [[UIPageControl alloc]initWithFrame:CGRectMake(0, XDScreenHeight - 30 - iPhone_X_Present, XDScreenWidth, 10)];
+        _pageControl = [[UIPageControl alloc]init];
         _pageControl.currentPageIndicatorTintColor = [UIColor whiteColor];
         _pageControl.pageIndicatorTintColor = [UIColor grayColor];
         _pageControl.numberOfPages = self.totalCount;
@@ -362,7 +370,7 @@
 {
     if (!_backImageView)
     {
-        _backImageView = [[UIImageView alloc]initWithFrame:self.view.bounds];
+        _backImageView = [[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
         
         UIImage *image = [OTScreenshotHelper screenshot];
         

@@ -150,14 +150,13 @@
     CGRect oldFrame = self.model.oldFrame;
     
     self.imageView.frame = oldFrame;
-    self.superview.superview.superview.backgroundColor = [UIColor clearColor];
+    self.superview.superview.superview.backgroundColor = [UIColor blackColor];
     
     __weak typeof(self) wself = self;
     
     self.imageViewIsMoving = YES;
     [UIView animateWithDuration:0.2 animations:^{
         wself.imageView.frame = currentFrame;
-        wself.superview.superview.superview.backgroundColor = [UIColor blackColor];
     }completion:^(BOOL finished) {
         wself.imageViewIsMoving = NO;
         [wself layoutSubviews];
