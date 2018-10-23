@@ -21,7 +21,7 @@
 #define XDScreenHeight [UIScreen mainScreen].bounds.size.height
 #define XDStatusHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 
-#define ISIPHONEX ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.width == 812)
+#define ISIPHONEX ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.width == 812 || [UIScreen mainScreen].bounds.size.height == 896 || [UIScreen mainScreen].bounds.size.width == 896)
 #define iPhone_X_Present   (ISIPHONEX ? 34:0)
 
 #define CELLSIZE CGSizeMake(XDScreenWidth/3, (XDScreenWidth/3))
